@@ -3,7 +3,7 @@ development:
     default:
       database: testapp_development
       hosts:
-        - localhost:27017
+        - 54.251.151.245:27017
       options:
         # safe: false
         # consistency: :eventual
@@ -17,7 +17,7 @@ test:
     default:
       database: testapp_test
       hosts:
-        - localhost:27017
+        - 54.251.151.245:27017
       options:
         consistency: :strong
         max_retries: 1
@@ -28,4 +28,4 @@ development:
     default:
       database: testapp_production
       hosts:
-        - localhost:27017
+        - 54.251.151.245:27017
